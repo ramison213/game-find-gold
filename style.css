@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 660px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.map {
+    cursor: pointer;
+}
+
+.result {
+    color: green;
+    font-size: 2em;
+}
+
+.cold {
+    color: blue;
+}
+
+.hot {
+    color: red;
+}
+
+.warm {
+    color: yellow;
+}
+
+.wrap {
+    position: relative;
+}
+
+.treasure {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+}
